@@ -6,7 +6,7 @@ const PageContent1 = (props) => {
   return (
     <div className="h-[90vh] bg-gray-100 gap-10 flex items-center py-10 px-18">
       <Left1 />
-      <Right1 users={props.users} />
+      <Right1 users={props.users} tag={props.tag} />
     </div>
   );
 };
