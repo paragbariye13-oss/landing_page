@@ -4,9 +4,9 @@ import Right1 from "./Right1";
 
 const PageContent1 = (props) => {
   return (
-    <div className="h-[90vh] bg-gray-100 gap-10 flex items-center py-10 px-18">
+    <div className="h-[90vh] gap-10 flex items-center pb-16 pt-6 px-18">
       <Left1 />
-      <Right1 users={props.users} tag={props.tag} />
+      <Right1 users={props.users} />
     </div>
   );
 };
